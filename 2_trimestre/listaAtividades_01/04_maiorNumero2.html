@@ -3,11 +3,20 @@
     //Peça ao usuário para informar três números e diga, ao final do programa, qual dos três é o maior número.
 
     //ENTRADA
-
+    const n1 = Number(prompt(`Digite um número`));
+    const n2 = Number(prompt(`Digite outro número`));
+    const n3 = Number(prompt(`Digite um terceiro número`));
 
     //PROCESSAMENTO
-
+    if(n1 > n2 & n1 > n3){
+        alert(`O maior número é ${n1}`)
+    }
+    else if(n2 > n1 & n2 > n3){
+        alert(`O maior número é ${n2}`)
+    }
 
     //SAÍDA
-
+    else if(n3 > n1 & n3 > n2){
+        alert(`O maior número é ${n3}`)
+    }
 </script>
